@@ -1,0 +1,103 @@
+/* Dark Blue   rgb(1, 56, 76)
+   Light Blue  rgb(92, 190, 215)
+   Yellow      rgb(248, 209, 52) */
+
+
+/*********** CLEAR FIX ***********/
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+    }
+.group:after {
+    clear: both;
+    }
+.group {
+    *zoom: 1;
+    }
+/*********** CLEAR FIX END ***********/
+
+/*********** BORDER BOX BEGIN ***********/
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/*********** BORDER BOX END ***********/
+
+/*********** STRUCTURE ***********/
+header {
+  background-color: #fff;
+}
+
+img, object {
+  width: 100%;
+}
+
+img {
+  height: auto;
+  display: block;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  position: relative;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+/*********** STRUCTURE END ***********/
+
+.headline {
+  background-color: rgb(248, 209, 52);
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+.headline h2 {
+  color: #fff;
+  text-align: left;
+}
+
+.loans h3, .programs h3 {
+  color: rgb(1, 56, 76);
+}
+
+.loans p {
+  font-size: 15px;
+}
+
+.arrow {
+  font-size: 50px;
+  color: #fff;
+}
+
+.rule {
+  background-color: rgb(1, 56, 76);
+  height: 5px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.intro {
+  padding-top: 27px;
+}
+
+.intro p {
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 18px;
+}
+
+.border_overlay_blue {
+  position: relative;
+  height: 10px;
+  background-color: rgba(248, 209, 52, .85);
+  margin: 55px 0 -5px 0;
+}

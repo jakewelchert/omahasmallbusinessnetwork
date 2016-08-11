@@ -1,0 +1,88 @@
+body {
+  font-size: 100%;
+  font-family: "Source Sans Pro", sans-serif;
+  line-height: 1.2;
+  color: #777;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 3em;
+}
+
+
+h2 {
+	font-weight: 600;
+  	font-size: 1.8em;
+  	text-align: center;
+}
+
+
+h3 {
+	font-size: 18px;
+	color: rgb(92, 190, 215);
+	letter-spacing: 1px;
+}
+
+
+h4 {
+	font-size: 14px;
+	letter-spacing: 1px;
+	color: rgb(92, 190, 215);
+	text-transform: uppercase;
+}
+
+h4 a {
+	text-decoration: underline
+}
+
+
+h5 {
+	font-size: 20px;
+	color: rgb(92, 190, 215);
+	font-weight: 400;
+	letter-spacing: .5px;
+	padding-bottom: 10px;
+	line-height: 1.5;
+}
+
+
+h6 {
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 1.25;
+	padding-bottom: 20px;
+}
+
+p {
+	font-weight: 300;
+	font-size: 15px;
+	line-height: 1.65;
+}
+
+.blue {
+	color: rgb(92, 190, 215);
+	font-weight: 700;
+}
+
+.dkblue {
+	color: rgb(1, 56, 76);
+}
+
+.yellow {
+	color: rgb(248, 209, 52);
+	font-weight: 700;
+	letter-spacing: .5px;
+}
+
+a {
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+	color: #666;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #ccc;
+}

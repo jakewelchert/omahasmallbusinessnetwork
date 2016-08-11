@@ -1,0 +1,278 @@
+/* Smaller screens */
+@media only screen and (min-width: 500px) {
+nav ul {
+  margin-left: 100px;
+  margin-top: 25px;
+}
+
+nav {
+  height: 100px;
+  width: 100%;
+  margin-bottom: 50px;
+  padding-left: 50px;
+}
+
+nav ul li a {
+  letter-spacing: 1px;
+  font-size: 14px;
+}
+
+.intro p {
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 20px;
+}
+
+.st-accordion ul li > a{
+    font-size: 18px;
+}
+
+.container {
+  padding: 50px;
+}
+}
+
+
+
+/* Smaller screens */
+@media only screen and (min-width: 800px) {
+.col_onefourth, .col_half, .col_threefourth, .col_full, .col_onethird, .col_twothird, .col_oneeighth, .col_threeeighth, .col_fiveeighth, .col_seveneighth, .offer-box {
+  float: left;
+}
+
+.col_half_right {
+  float: right;
+}
+
+.about_scndry {
+  padding-bottom: 30px;
+}
+
+.about_copy_top {
+  padding-bottom: 30px;
+}
+
+p {
+  font-size: 20px;
+}
+
+h2 {
+  font-size: 2.8em;
+}
+
+.about_scndry h3 {
+  font-size: 16px;
+}
+
+.container {
+  padding: 75px 100px;
+}
+
+.headline {
+  padding: 30px 30px 5% 30px;
+  margin-bottom: 50px;
+}
+
+.st-accordion ul li > a {
+  font-size: 30px;
+  line-height: 100px;
+  letter-spacing: .5px;
+}
+
+.st-accordion ul li{
+  height: 100px;
+}
+
+h3 {
+  font-size: 30px;  
+}
+
+h4 {
+  font-size: 17px;
+}
+
+.about_scndry p {
+font-size: 15px;
+}
+
+.logo {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 300px;
+}
+
+.intro p {
+  padding-left: 50px;
+  font-size: 25px;
+}
+
+.pressmention {
+padding: 120px 0 110px 0;
+}
+
+.pressmention p {
+margin: 0 auto 50px;
+}
+
+.lending_learn {
+  width: 300px;
+}
+
+.staff .container {
+    padding: 100px 100px 120px 100px;
+}
+
+.border_overlay_yellow {
+  position: relative;
+  height: 50px;
+  background-color: rgba(248, 209, 52, .85);
+  margin-left: 0%;
+  margin-top: -25px;
+  width: 100%;
+}
+
+.staff .col_onefourth {
+  padding-bottom: 0px;
+}
+
+.btn {
+  padding: 17px 60px;
+  letter-spacing: 1.5px;
+  font-size: 20px;
+}
+
+.contact .col_onefourth, .contact .col_half {
+  padding: 0;
+}
+}
+
+
+/* Above 900 */
+@media only screen and (min-width: 900px) {
+nav ul {
+  margin-left: 100px;
+  margin-top: 25px;
+}
+
+nav {
+  height: 100px;
+  width: 100%;
+  margin-bottom: 50px;
+  padding-left: 50px;
+}
+
+nav ul {
+  margin-left: 110px;
+}
+
+nav ul li {
+  padding: 0 10px 0 0;
+}
+
+nav ul li a {
+  letter-spacing: 1px;
+  font-size: 15px;
+}
+}
+
+
+
+@media only screen and (max-width: 799px) {
+.col_onefourth, .col_half, .col_threefourth, .col_full, .col_onethird, .col_twothird, .col_oneeighth, .col_threeeighth, .col_fiveeighth, .col_seveneighth, .offer-box {
+  width: 100%;
+}
+}
+
+
+
+@media only screen and (min-width: 1000px) {
+.about_copy {
+  padding: 90px 90px 60px 90px;
+}
+
+.about_copy_staff {
+  padding: 100px;
+}
+
+.logo {
+  width: 400px;
+}
+
+nav {
+  margin-bottom: 120px;
+}
+
+nav ul {
+  margin-left: 150px;
+}
+
+nav ul li a {
+  letter-spacing: 1px;
+  font-size: 17px;
+}
+}
+
+
+@media only screen and (min-width: 1200px) {
+.logo {
+  width: 450px;
+}
+}
+
+
+@media only screen and (min-width: 1500px) {
+
+nav {
+  padding-left: 100px;
+}
+
+.nav_social {
+  float: right;
+  margin-top: 5px;
+  margin-left: 30px;
+}
+
+.nav_social a {
+  margin-left: 15px;
+}
+
+nav ul {
+  text-align: left;
+  float: left;
+  margin-left: 180px;
+  margin-top: 25px;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 0 15px;
+}
+
+nav ul li a {
+  list-style: none;
+  text-decoration: none;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  font-size: 20px;
+}
+
+.intro p {
+  padding-left: 100px;
+  font-size: 34px;
+}
+
+.logo {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 650px;
+}
+
+.border_overlay_blue {
+  position: relative;
+  height: 10px;
+  background-color: rgba(248, 209, 52, .85);
+  margin: 135px 0 -5px 0;
+}
+}

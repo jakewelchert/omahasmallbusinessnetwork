@@ -1,0 +1,95 @@
+.pressmention {
+padding: 60px 0 50px 0;
+background-color: #fff;
+}
+
+.pressmention-top {
+text-align: center;
+}
+
+.pressmention img {
+margin: 0;
+max-width: 100%;
+height: auto;
+}
+
+.crain img {
+max-width: 90%;
+}
+
+.npr img {
+max-width: 95%;
+}
+
+.pressmention-wrap {
+max-width: 1200px;
+}
+
+.pressmention-wrap {
+padding: 0 20px;
+margin: 0 auto;
+}
+
+.pressmention h2 {
+margin-bottom: 10px;
+color: rgb(1, 56, 76);
+}
+
+.pressmention h2 span {
+font-weight: 600;
+}
+
+.pressmention p {
+max-width: 800px;
+margin: 0 auto 20px;
+text-align: center;
+font-weight: 300;
+}
+
+.pressmention ul {
+text-align: center;
+font-size: 0;
+}
+
+.pressmention ul.pressmention-medium li {
+width: 20%;
+min-width: 138px;
+padding: 0 20px;
+margin-bottom: 22px;
+}
+
+.pressmention ul li {
+display: inline-block;
+vertical-align: middle;
+}
+
+.pressmention ul li a {
+-webkit-transition: top 0.2s ease-in-out;
+-moz-transition: top 0.2s ease-in-out;
+transition: top 0.2s ease-in-out;
+display: block;
+position: relative;
+top: 0;
+}
+
+.pressmention ul li a:hover, .pressmention ul li a:focus {
+top: -5px;
+}
+
+.lending_learn {
+	text-align: center;
+	width: 200px;
+	margin: 0 auto;
+}
+
+.lending_learn a {
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+	color: rgb(92, 190, 215);
+	text-decoration: none;
+}
+
+.lending_learn a:hover {
+	color: rgb(248, 209, 52);
+}

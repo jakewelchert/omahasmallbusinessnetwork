@@ -1,0 +1,69 @@
+.col_onefourth, .col_half, .col_threefourth, .col_full, .col_onethird, .col_twothird, .col_oneeighth, .col_threeeighth, .col_fiveeighth, .col_seveneighth {
+position: relative;
+margin-right: 6%;
+}
+
+.last {
+margin-right: 0;
+}
+
+.row {
+position: relative;
+float: left;
+padding: 10px;
+}
+
+.right {
+	float: right;
+}
+
+
+/*    Q U A R T E R S    */
+.col_onefourth {
+width: 20.5%;
+}
+
+.col_half {
+width: 47%;
+}
+
+.col_half_intro {
+width: 56%;
+}
+
+
+.col_threefourth {
+width: 75%;
+}
+
+.col_full {
+width: 100%;
+}
+
+
+/*    T H I R D S    */
+.col_onethird {
+width: 30%;
+}
+
+.col_twothird {
+width: 60%;
+}
+
+
+/*    E I G H T H S    */
+.col_oneeighth {
+width: 12.5%;
+}
+
+.col_threeeighth {
+width: 37.5%;
+}
+
+.col_fiveeighth {
+width: 62.5%;
+}
+
+.col_seveneighth {
+width: 87.5%;
+}

@@ -1,0 +1,70 @@
+button {
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+}
+
+/* General button style (reset) */
+.btn {
+	border: none;
+	font-family: inherit;
+	font-size: inherit;
+	color: inherit;
+	background: none;
+	cursor: pointer;
+	padding: 17px 50px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 600;
+	font-size: 14px;
+	outline: none;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.btn:after {
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+/* Button 4 */
+.btn-brdr {
+	border-radius: 100px;
+	border: 3px solid rgb(0, 107, 193);
+	overflow: hidden;
+	color: #0b4661;
+}
+
+.btn-brdr:active {
+	border-color: #0b4661;
+	color: #0b4661;
+}
+
+.btn-brdr:hover {
+	color: #fff;
+	background-color: rgb(92, 190, 215);
+}
+
+.btn-brdr {
+	border: 3px solid rgb(92, 190, 215);
+}
+
+.btn-brdr:before {
+	position: absolute;
+	height: 100%;
+	line-height: 3.5;
+	color: #fff;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.btn-brdr:active:before {
+	color: #17954c;
+}
+
+.payrent {
+	margin: 0;
+}
