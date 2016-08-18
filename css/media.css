@@ -33,7 +33,6 @@ nav ul li a {
 }
 
 
-
 /* Smaller screens */
 @media only screen and (min-width: 800px) {
 .col_onefourth, .col_half, .col_threefourth, .col_full, .col_onethird, .col_twothird, .col_oneeighth, .col_threeeighth, .col_fiveeighth, .col_seveneighth, .offer-box {
@@ -65,7 +64,7 @@ h2 {
 }
 
 .container {
-  padding: 75px 100px;
+  padding: 100px 100px;
 }
 
 .headline {
@@ -84,7 +83,7 @@ h3 {
 }
 
 h4 {
-  font-size: 17px;
+  font-size: 16px;
 }
 
 .about_scndry p {
@@ -173,13 +172,11 @@ nav ul li a {
 }
 
 
-
 @media only screen and (max-width: 799px) {
 .col_onefourth, .col_half, .col_threefourth, .col_full, .col_onethird, .col_twothird, .col_oneeighth, .col_threeeighth, .col_fiveeighth, .col_seveneighth, .offer-box {
   width: 100%;
 }
 }
-
 
 
 @media only screen and (min-width: 1000px) {

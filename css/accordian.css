@@ -1,16 +1,18 @@
 /* Flexible Slide-to-top Accordion Style*/
 .st-accordion{
-	padding-top: 30px;
     width: 100%;
     min-width: 240px;
     margin: 0 auto;
 }
+@media only screen and (min-width: 800px) {
+.st-accordion ul {
+    margin-left: 25%;
+}
+}
 .st-accordion ul li {
-    /*height: 60px;*/
-    border-top:1px solid #ccc;
-    /*overflow: hidden;*/
-    padding-top: 30px;
-    margin-top: 75px;
+    border-top: 1px solid #ccc;
+    padding-top: 40px;
+    margin-top: 20px;
 }
 .st-accordion ul li:first-child{
     border-top:none;

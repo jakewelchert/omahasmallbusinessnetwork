@@ -51,7 +51,7 @@ nav ul li a {
   width: 80px;
   height: 70px;
   padding-left: 0;
-  background: transparent url(../img/wordmark.png) no-repeat center center;
+  background: transparent url(../img/wordmark.svg) no-repeat center center;
   position: absolute;
 }
 
