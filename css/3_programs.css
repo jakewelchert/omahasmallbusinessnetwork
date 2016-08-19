@@ -1,0 +1,110 @@
+.programs-headline {
+  padding: 30px 30px 5% 30px;
+  margin-bottom: 50px;
+}
+
+.programs-headline {
+  background-color: rgb(248, 209, 52);
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+.programs-headline h2 {
+  color: #fff;
+  text-align: left;
+}
+
+.programs-intro {
+  font-size: 30px;
+}
+
+.programs h4 {
+  color: rgb(1, 56, 76)
+}
+
+.programs a {
+  color: rgb(1, 56, 76);
+  text-decoration: underline;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.programs a:hover {
+  color: rgb(248, 209, 52);
+}
+
+.programs h5 {
+  margin-top: 15px;
+}
+
+
+/* Flexible Slide-to-top Accordion Style*/
+.st-accordion{
+   width: 100%;
+   min-width: 240px;
+   margin: 0 auto;
+}
+
+
+.st-accordion ul li {
+  border-top: 1px solid #ccc;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.st-accordion ul li:first-child{
+  border-top:none;
+  padding-top: 50px;
+}
+
+@media only screen and (min-width: 1024px) {
+.st-accordion ul {
+  margin-left: 20%;
+  padding-left: 5%;
+  border-left: 1px solid #ddd;
+  margin-top: 75px;
+}
+
+.st-accordion ul li {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.st-accordion ul li:first-child{
+  padding-top: 0;
+}
+}
+
+
+.st-accordion ul li:last-child{
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.st-accordion ul li > a:hover{
+  color: rgb(92, 190, 215);
+}
+.st-accordion ul li > a:hover span{
+	opacity:1;
+	right: 10px;
+}
+.st-accordion ul li.st-open > a{
+  color: rgb(92, 190, 215);
+}
+.st-accordion ul li.st-open > a span{
+	-webkit-transform:rotate(180deg);
+	-moz-transform:rotate(180deg);
+    transform:rotate(180deg);
+	right:10px;
+	opacity:1;
+}
+.st-content{
+   padding: 5px 0px 30px 0px;
+}
+.st-content p{
+   padding-bottom: 20px; 
+}
+@media screen and (max-width: 320px){
+	.st-accordion ul li > a{
+		font-size:36px;
+	}
+}

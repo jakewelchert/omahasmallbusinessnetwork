@@ -3,9 +3,8 @@
 }
 
 .staff h2 {
-  color: #f3f3eb;
-  font-size: 2.75em;
-  padding-bottom: 30px;
+  padding-bottom: 0px;
+  margin-bottom: 20px;
   text-align: left;
 }
 
@@ -29,4 +28,8 @@
 
 .staff .col_onefourth {
   padding-bottom: 25px;
+}
+
+.staff ul li {
+  padding-bottom: 20px;
 }

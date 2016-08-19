@@ -1,0 +1,18 @@
+.events {
+	background: rgba(1, 56, 76,1);
+	color: #fff;
+	text-align: center;
+}
+
+.events h4 {
+	margin-top: 50px;
+}
+
+.events h4 a {
+	color: #fff;
+	cursor: pointer;
+}
+
+.events h4 a:hover {
+	color: rgb(248, 209, 52);
+}

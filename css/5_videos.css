@@ -1,0 +1,16 @@
+.videos {
+	text-align: center;
+	background: rgb(248, 209, 52);
+}
+
+.videos h2, .videos h4 a {
+	color: #fff;
+}
+
+.videos h4 {
+	margin-top: 50px;
+}
+
+.videos h4 a:hover {
+	color: rgb(1, 56, 76);
+}

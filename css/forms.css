@@ -9,3 +9,7 @@ padding: 15px;
 
 textarea {
 }
+
+table {
+	width: 100% !important;
+}

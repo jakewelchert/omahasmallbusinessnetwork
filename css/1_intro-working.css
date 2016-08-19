@@ -1,0 +1,42 @@
+@media only screen and (min-width: 800px) {
+	.intro-working {
+	padding: 120px 0 110px 0;
+	}
+}
+
+.intro-working h2 {
+margin-bottom: 10px;
+color: rgb(1, 56, 76);
+}
+
+.intro-working img {
+margin: 0;
+max-width: 100%;
+height: auto;
+}
+
+.intro-working h2 span {
+font-weight: 600;
+}
+
+.intro-working p {
+max-width: 800px;
+margin: 0 auto 20px;
+text-align: center;
+}
+
+.intro-coast {
+	text-align: center;
+	width: 200px;
+	margin: 0 auto;
+}
+
+	@media only screen and (min-width: 800px) {
+	.intro-coast {
+	  width: 300px;
+	}
+	}
+
+.intro-working p {
+margin-bottom: 50px;
+}
